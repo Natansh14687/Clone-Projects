@@ -1,0 +1,542 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    background-color: #F4F2EE;
+}
+.nav{
+    height: 52.67px;
+    width: 1180.33px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: sticky;
+    top: 0.1px;
+    z-index: 2;
+}
+.ln-logo{
+    height: 34.17px;
+    width: 34.17px;
+    display: flex;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    background-color: #EDF3F8;
+    padding: 9px;
+    margin-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.search{
+    background-color: #EDF3F8;
+    border-color: #F4F2EE;
+    border: none;
+    width: 200px;
+    padding-right: 40px;
+    border-radius: 0px 5px 5px 0px;
+    height: 34px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.links i{
+    font-size: 22px;
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 6px;
+}
+.links i:hover{
+    color: #000;
+}
+.nav .links i p{
+   font-size: 12px;
+   line-height: 20px;
+   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: lighter;
+}
+.links i p{
+    display: inline;
+}
+.small img{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin-top: 6px;
+}
+.small p{
+    font-family: -apple-system, system-ui,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #808080;
+    line-height: 10px;
+}
+.nav-text{
+    line-height: 20px;
+    margin: 5px;
+    color: #915907;
+    text-decoration: underline solid #915907;
+    text-align: center;
+    font-size: small;
+    margin-right: 20px;
+}
+.nav-text:hover{
+    color: #000;
+    text-decoration: underline solid #000;
+}
+.line{
+    width: 2px;
+    background-color: #F4F2EE;
+}
+
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 25px;
+}
+.profile{
+    /* height: 710px; */
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 35px;
+}
+.pic{
+    width: 225px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.bgimg img{
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    width: 225px;
+}
+.profile_pic{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+.profile_pic img{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.name{
+    margin-top: 30px;
+    text-align: center;
+}
+.name p{
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #797474;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.name h3{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.line2{
+    height: 1px;
+    background-color: #F4F2EE;
+    margin-top: 20px;
+}
+.field3{
+    margin-top: 20px;
+}
+.d3{
+    display: flex;
+    justify-content: space-between;
+}
+.viewers{
+    margin-left: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808080;
+    font-size: 14px;
+}
+.impressions{
+    margin-left: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808080;
+    line-height: 30px;
+    font-size: 14px;
+}
+.d80{
+    margin-right: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0000FF;
+    font-size: 14px;
+}
+.d1{
+    margin-right: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0000FF;
+    font-size: 14px;
+}
+.grow{
+    margin: 20px 0px 0px 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #797474;
+}
+.box{
+    height: 10px;
+    width: 10px;
+    background-color: #ffa500;
+    display: inline-block;
+    margin-left: 12px;
+}
+.try{
+    display: inline;
+    font-size: 14px;
+}
+.items{
+    margin: 14px;
+}
+.items i{
+    color: #5A5A5A;
+    font-size: 14px;
+}
+.items p{
+    display: inline;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+
+.discover{
+    width: 225px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    font-size: small;
+}
+.discover p{
+    text-align: center;
+    margin: 10px 0px 0px 0px ;
+    color: #808080;
+}
+
+
+
+.container2{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.startpost{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 116px;
+    /* border: #000 solid ; */
+    border-radius: 10px;
+}
+.post{
+    height: 80px;
+    width: 570px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.startpost img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* margin: 10px; */
+    /* display: inline-block; */
+}
+.startpost input{
+    height: 45px;
+    width: 480px;
+    border-radius: 30px;
+    /* display: inline-block; */
+    /* margin-top: -40px; */
+    color: #808080;
+    font-size: medium;
+    border-color: #808080;
+    border-width: 1px;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.media i{
+    font-size: 25px;
+    margin-left: 60px;
+}
+.media p{
+    display: inline;
+    margin-right: 20px;
+    font-size: 15px;
+    /* margin-bottom: 2px; */
+    margin-top: 5px;
+    color: #808080;
+}
+.media i.fa-image{
+    color: #0c7cb8;
+}
+.media i.fa-calendar-days{
+    color: #FFA500;
+}
+.media i.fa-newspaper{
+    color: #FF0000;
+}
+.line5{
+    margin: 20px 0px 20px 0px;
+    width: 500px;
+    height: 1.33px;
+    background-color: #808080;
+    box-shadow: #808080 0px 2px 5px;
+    /* display: inline; */
+}
+.line5 p{
+    position: relative;
+    bottom: 9px;
+    left: 505px;
+    font-size: 12px;
+}
+
+
+
+.accounts{
+    width: 580px;
+    height: 950px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 10px ;
+}
+.likethis{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 12px 0px 0px 20px;
+}
+.likethis img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.likethis p{
+    display: inline;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+.likethis p.dush_sharma{
+    font-weight: 500;
+    font-size: small;
+}
+.likethis p.lik{
+    font-weight: 200;
+    font-size: 12px;
+}
+.icons2{
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #808080;
+}
+.icons2 i.fa-ellipsis{
+    margin-right: 25px;
+}
+.line6{
+    display: flex;
+    justify-content: center;
+    margin: 7px 0px 7px 0px;
+}
+.line6_1{
+ width: 570px;
+ height: 0.1px;
+ background-color: #797474;
+}
+.feed{
+    margin: 10px 0px 0px 15px;
+}
+.feed img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+.feed .info{
+    display: inline-block;
+}
+.info h3{
+    font-weight: 600;
+    margin: 0px 0px 6px 6px ;
+}
+.feed i{
+    font-size: 3px;
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+    color: #797474;
+    margin-bottom: 10px;
+}
+.feed span{
+    font-size: small;
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+    color: #797474;
+}
+.info p{
+    font-weight: 100;
+    font-size: small;
+    position: relative;
+    bottom: 7px;
+}
+.info p i.fa-earth-americas{
+    /* margin: 10px 0px 0px 5px; */
+    font-size: 16px;
+    position: relative;
+    left: 7px;
+    top: 0.6px;
+}
+.disc{
+    margin-left: 15px;
+    font-size: 14px;
+}
+.seemore{
+    text-align: end;
+    font-size: small;
+    margin: 10px 10px 10px 0px;
+    color: #797474;
+}
+.bigimg img{
+    width: 580px;
+}
+.like_comment{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px 0px 17px;
+}
+
+.clap .svg2{
+    position: relative;
+    right: 10px;
+}
+.clap .svg3{
+    position: relative;
+    right: 20px;
+}
+.like_comment .comments{
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+    font-weight: 100;
+    font-size: small;
+    color: #797474;
+}
+.last_part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #797474;
+}
+.last_part i{
+    margin-left: 35px;
+}
+.last_part p{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 25px;
+    /* position: sticky;
+    top: 10px; */
+}
+.con1{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.linkedinnews{
+    margin-left: 15px;
+    font-weight: 500;
+}
+.i_icon{
+    height: 14px;
+    width: 13px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20%;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 1px;
+}
+.ullist{
+    margin: 15px 0px 0px 30px;
+    /* font-weight: 400; */
+}
+.ullist li{
+    font-weight: 500;
+    font-size: small;
+}
+.ullist p{
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin: 7px 0px;
+    color: #808080;
+}
+p.showmore{
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.hiring_ln img{
+    border-radius: 10px;
+    margin-top: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
